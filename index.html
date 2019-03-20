@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Page</title>
+  <!------------------------------ Plugin Styles -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  <!-- Lightbox -->
+  <link rel="stylesheet" href="/lib/lightbox/css/lightbox.min.css">
+  <!-- Owlcarousel -->
+  <link rel="stylesheet" href="/lib/owlcarousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="/lib/owlcarousel/css/owl.theme.default.min.css">
+  <!------------------------------- Fonts styles -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Font IonIcons -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans" rel="stylesheet">
+  <!-------------------------------- Custom Styles -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!--==========================
+      Header
+    ============================-->
+  <header id="header">
+    <!-- navbar container -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid">
+        <h1 class="navbar-brand"><a href="./index.html">LogoPage</a></h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar-menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item menu-active"><a class="nav-link" href="#introCarousel">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Sobre nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Trabajos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header><!-- #header -->
+
+  <!--==========================
+      Intro Section
+    ============================-->
+  <!-- Intro section Carousel -->
+  <section id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#introCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#introCarousel" data-slide-to="1"></li>
+      <li data-target="#introCarousel" data-slide-to="2"></li>
+    </ol>
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <!--1º slide-->
+      <div class="carousel-item active">
+        <!--Mask-->
+        <div class="carousel-caption d-md-block pb-3">
+          <h2>First slide label</h2>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Rerum aliquam recusandae, tempore quibusdam officia modi ipsum maiores nostrum itaque
+            sint.</p>
+          <a href="#featured-services" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+      </div>
+      <!--2º slide -->
+      <div class="carousel-item">
+        <!--Mask-->
+        <div class="carousel-caption d-md-block">
+          <h2>Second slide label</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dicta recusandae possimus explicabo nisi necessitatibus voluptas. Rerum necessitatibus
+            quia asperiores molestias.</p>
+        </div>
+      </div>
+      <!--3º slide-->
+      <div class="carousel-item">
+        <!--Mask-->
+        <div class="carousel-caption d-md-block">
+          <h2>Third slide label</h2>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Eveniet ipsum cupiditate odit earum. Id dignissimos tenetur dolor enim blanditiis
+            corrupti aspernatur beatae et suscipit quo.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </section>
+
+  <!-- Intro section featured -->
+  <div id="introFeatured">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 box">
+          <i class="far fa-bookmark"></i>
+          <h3>Sint, accusantium minus?</h3>
+          <p>Asperiores, necessitatibus. Alias, dolorum sunt harum vitae incidunt at assumenda expedita temporibus eius
+            facere officiis nobis sint perspiciatis debitis doloribus!</p>
+        </div>
+        <div class="col-lg-4 box bg-box">
+          <i class="far fa-clock"></i>
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>Quaerat veniam quisquam quasi repellat quod labore voluptates expedita delectus corporis architecto unde,
+            aliquam ipsum laboriosam facilis recusandae exercitationem fuga.</p>
+        </div>
+        <div class="col-lg-4 box">
+          <i class="far fa-heart"></i>
+          <h3>Ipsa, repellendus voluptatem.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates asperiores ipsa numquam possimus
+            voluptate dignissimos. Suscipit accusantium hic quas voluptatibus?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--==========================
+      About us Section
+    ============================-->
+  <section id="about">
+    <div class="container">
+      <header class="section-header">
+        <h1>Nosotros</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, cum repudiandae? Laboriosam doloribus vel
+          alias. Amet fugiat quo exercitationem vero ut delectus, hic necessitatibus dolor et perspiciatis aspernatur
+          quae sit!</p>
+      </header>
+      <div class="row">
+        <!-- Mission -->
+        <div class="col-md-4">
+          <div class="about-col">
+            <div class="img">
+              <img src="/images/about/about-mission.jpg" alt="About Mision">
+              <div class="icon">
+                <i class="ion-ios-speedometer-outline"></i>
+              </div>
+            </div>
+            <h3><a href="#">Misión</a></h3>
+            <p>Dolor minus cum incidunt quo ipsam omnis praesentium possimus blanditiis. Iste nisi ab eum vitae sed
+              tempore fuga dicta quasi soluta? Harum eligendi quis ullam reiciendis illum soluta eos cum, nemo quos!</p>
+          </div>
+        </div>
+        <!-- Plan -->
+        <div class="col-md-4">
+          <div class="about-col">
+            <div class="img">
+              <img src="/images/about/about-plan.jpg" alt="About Mision">
+              <div class="icon">
+                <i class="ion-ios-list-outline"></i>
+              </div>
+            </div>
+            <h3><a href="#">Estrategia</a></h3>
+            <p>Dignissimos minima deserunt neque nobis, repellendus commodi aliquid iusto illo sapiente, earum fuga
+              aspernatur sit reprehenderit non corporis perferendis quibusdam, error omnis iure dolorem ducimus quo?
+              Molestias vitae nemo praesentium sint a.</p>
+          </div>
+        </div>
+        <!-- Vision -->
+        <div class="col-md-4">
+          <div class="about-col">
+            <div class="img">
+              <img src="/images/about/about-vision.jpg" alt="About Mision">
+              <div class="icon">
+                <i class="ion-ios-eye-outline"></i>
+              </div>
+            </div>
+            <h3><a href="#">Visión</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nulla temporibus aliquam ipsa alias
+              dolores quia consequatur voluptas voluptate deserunt, consectetur nobis quam facilis iure ipsam, deleniti
+              eos odit quibusdam magni minima!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+      Services us Section
+    ============================-->
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <header class="section-header">
+        <h1>Servicios</h1>
+        <p>Debitis fuga possimus laboriosam minima consectetur, enim vitae! Vitae voluptas qui numquam recusandae quos
+          repudiandae, nobis, dolor laudantium debitis nemo, eius minima cum voluptate aliquam odio eveniet ipsam
+          ducimus ullam quas perferendis.</p>
+      </header>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 box">
+          <div class="icon">
+            <i class="ion-ios-analytics-outline"></i>
+          </div>
+          <h3><a href="#">Doloremque natus</a></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed corrupti, sit consequuntur delectus magnam
+            eum.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box">
+          <div class="icon">
+            <i class="ion-ios-bookmarks-outline"></i>
+          </div>
+          <h3><a href="#">Quos consectetur</a></h3>
+          <p>Blanditiis, recusandae. Blanditiis ad itaque voluptatum illo! Eius voluptatem ad vel, quisquam debitis
+            delectus non.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box">
+          <div class="icon">
+            <i class="ion-ios-paper-outline"></i>
+          </div>
+          <h3><a href="#">Non delectus</a></h3>
+          <p>Ad aspernatur dolorum quae incidunt iure a omnis nesciunt magnam dolor. Optio amet beatae animi.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box">
+          <div class="icon">
+            <i class="ion-ios-speedometer-outline"></i>
+          </div>
+          <h3><a href="#">Esse loc amet</a></h3>
+          <p>Magni ea voluptate, sint, aliquid, repellendus dolore quidem modi libero quam suscipit doloribus! Nihil,
+            aperiam.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box">
+          <div class="icon">
+            <i class="ion-ios-barcode-outline"></i>
+          </div>
+          <h3><a href="#">Molestiae distinctio</a></h3>
+          <p>Laborum delectus aliquam reprehenderit recusandae sapiente beatae eveniet fuga adipisci cumque facilis
+            rerum, dolore ducimus.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 box">
+          <div class="icon">
+            <i class="ion-ios-people-outline"></i>
+          </div>
+          <h3><a href="#">Lorem ut ipsum</a></h3>
+          <p>Nemo ullam, ipsam dolorem qui molestiae maiores fuga repellendus minus rerum molestias nobis ad quae.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <div id="services-cta">
+    <div class="text-center text-white py-5 box">
+      <div class="container">
+        <h2>Call To Action</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quos unde in neque eius totam quasi cum
+          facilis repellendus iste consequatur possimus recusandae itaque fugiat deleniti eaque sit, dolores, minus
+          soluta perferendis? Vitae, velit excepturi.</p>
+        <a href="#" class="btn btn-outline-primary btn-lg cta-btn">Call to action</a href="#">
+      </div>
+    </div>
+  </div>
+
+  <!--==========================
+      Trabajos  Section
+    ============================-->
+  <!-- portfolio -->
+  <section id="portfolio">
+    <div class="container">
+      <header class="section-header">
+        <h1>Trabajos</h1>
+      </header>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul id="portfolio-filters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">Card</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row portfolio-container">
+        <!-- Portfolio Item 1 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/app1.jpg" alt="Primera App">
+              <a href="/images/portfolio/app1.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Primera App">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">App 1</a>
+              </h3>
+              <p>App</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 2 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/web1.jpg" alt="Primera Web">
+              <a href="/images/portfolio/web1.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Primera Web">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">Web 1</a>
+              </h3>
+              <p>Primera Web</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 3 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/web2.jpg" alt="Segunda web">
+              <a href="/images/portfolio/web2.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Segunda web">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">Web 2</a>
+              </h3>
+              <p>Segunda web</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 4 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/card1.jpg" alt="Primera tarjeta">
+              <a href="/images/portfolio/card1.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Primera tarjeta">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">Tarjeta 1</a>
+              </h3>
+              <p>Primera tarjeta</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 5 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/app2.jpg" alt="Segunda App">
+              <a href="/images/portfolio/app2.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Segunda App">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">App 2</a>
+              </h3>
+              <p>Segunda App</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 6 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/card2.jpg" alt="Segunda tarjeta">
+              <a href="/images/portfolio/card2.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Segunda tarjeta">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">Tarjeta 2</a>
+              </h3>
+              <p>Segunda tarjeta</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 7 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/web3.jpg" alt="Tercera web">
+              <a href="/images/portfolio/web3.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Tercera web">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">Web 3</a>
+              </h3>
+              <p>Tercera web</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 8 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/app3.jpg" alt="Tercera App">
+              <a href="/images/portfolio/app3.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Tercera App">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">App 3</a>
+              </h3>
+              <p>Tercera App</p>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item 9 -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <figure>
+              <img class="img-fluid" src="/images/portfolio/card3.jpg" alt="Tercera Tarjeta">
+              <a href="/images/portfolio/card3.jpg" class="link-preview" title="Amplia imagen"
+                data-lightbox="portfolioSet" data-title="Tercera Tarjeta">
+                <i class="ion ion-eye"></i>
+              </a>
+              <a href="#" class="link-details" title="Más Detalles">
+                <i class="ion ion-android-open"></i>
+              </a>
+            </figure>
+            <div class="portfolio-info">
+              <h3>
+                <a href="#">Tarjeta 3</a>
+              </h3>
+              <p>Tercera Tarjeta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #clients -->
+  <section id="clients">
+    <div class="container">
+      <header class="section-header">
+        <h1>Marcas</h1>
+      </header>
+      <div class="clients-carousel owl-carousel owl-theme">
+        <img src="/images/clients/client-1.png" alt="">
+        <img src="/images/clients/client-2.png" alt="">
+        <img src="/images/clients/client-3.png" alt="">
+        <img src="/images/clients/client-4.png" alt="">
+        <img src="/images/clients/client-5.png" alt="">
+        <img src="/images/clients/client-6.png" alt="">
+        <img src="/images/clients/client-7.png" alt="">
+        <img src="/images/clients/client-8.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- #testimonials -->
+  <section id="testimonials">
+    <div class="container">
+      <header class="section-header">
+        <h1>Comentarios</h1>
+      </header>
+      <div class="testimonials-carousel owl-carousel owl-theme text-center">
+        <!-- testimonial item 1 -->
+        <div class="testimonial-item">
+          <img src="/images/testimonials/testimonial-1.jpg" class="testimonial-img" alt="">
+          <h3>Saul Goodman</h3>
+          <h4>Ceo &amp; Founder</h4>
+          <p>
+            <img src="/images/testimonials/quote-sign-left.png" class="quote-sign-left" alt="">
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam,
+            ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+            <img src="/images/testimonials/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+        <!-- testimonial item 2 -->
+        <div class="testimonial-item">
+          <img src="/images/testimonials/testimonial-2.jpg" class="testimonial-img" alt="">
+          <h3>Sara Wilsson</h3>
+          <h4>Designer</h4>
+          <p>
+            <img src="/images/testimonials/quote-sign-left.png" class="quote-sign-left" alt="">
+            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum
+            velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+            <img src="/images/testimonials/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+        <!-- testimonial item 3 -->
+        <div class="testimonial-item">
+          <img src="/images/testimonials/testimonial-3.jpg" class="testimonial-img" alt="">
+          <h3>Jena Karlis</h3>
+          <h4>Store Owner</h4>
+          <p>
+            <img src="/images/testimonials/quote-sign-left.png" class="quote-sign-left" alt="">
+            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
+            labore quem
+            eram duis noster aute amet eram fore quis sint minim.
+            <img src="/images/testimonials/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+        <!-- testimonial item 4 -->
+        <div class="testimonial-item">
+          <img src="/images/testimonials/testimonial-4.jpg" class="testimonial-img" alt="">
+          <h3>Matt Brandon</h3>
+          <h4>Freelancer</h4>
+          <p>
+            <img src="/images/testimonials/quote-sign-left.png" class="quote-sign-left" alt="">
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
+            dolor enim
+            duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+            <img src="/images/testimonials/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+        <!-- testimonial item 5 -->
+        <div class="testimonial-item">
+          <img src="/images/testimonials/testimonial-5.jpg" class="testimonial-img" alt="">
+          <h3>John Larson</h3>
+          <h4>Entrepreneur</h4>
+          <p>
+            <img src="/images/testimonials/quote-sign-left.png" class="quote-sign-left" alt="">
+            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore
+            duis sunt
+            culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+            <img src="/images/testimonials/quote-sign-right.png" class="quote-sign-right" alt="">
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+      Equipo  Section
+    ============================-->
+  <section id="team">
+    <div class="container">
+      <header class="section-header">
+        <h1>Equipo</h1>
+        <p>Ullam, ipsa, ducimus natus incidunt a, blanditiis consequuntur voluptates aspernatur expedita repudiandae
+          iure earum! Porro debitis velit illum, iure ex nobis quasi eligendi quis quod maxime eveniet!</p>
+      </header>
+      <div class="row">
+        <!-- team item 1 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="team-item text-center">
+            <img class="img-fluid" src="/images/team/team-1.jpg" alt="">
+            <div class="team-item-info">
+              <div class="team-item-info-content">
+                <h3>Walter White</h3>
+                <span>Chief Executive Officer</span>
+                <div class="social">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- team item 2 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="team-item text-center">
+            <img class="img-fluid" src="/images/team/team-2.jpg" alt="">
+            <div class="team-item-info">
+              <div class="team-item-info-content">
+                <h3>Sarah Jhonson</h3>
+                <span>Product Manager</span>
+                <div class="social">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- team item 3 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="team-item text-center">
+            <img class="img-fluid" src="/images/team/team-3.jpg" alt="">
+            <div class="team-item-info">
+              <div class="team-item-info-content">
+                <h3>William Anderson</h3>
+                <span>CTO</span>
+                <div class="social">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- team item 4 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="team-item text-center">
+            <img class="img-fluid" src="/images/team/team-4.jpg" alt="">
+            <div class="team-item-info">
+              <div class="team-item-info-content">
+                <h3>Amanda Jepson</h3>
+                <span>Accountant</span>
+                <div class="social">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+      Contacto  Section
+    ============================-->
+  <section id="contact">
+    <div class="container">
+      <header class="section-header">
+        <h1>Contacto</h1>
+        <p>Illum at, quia, quod commodi, voluptates rerum natus explicabo fugiat eveniet repellendus perspiciatis ipsam.
+          Delectus, obcaecati ipsa.</p>
+      </header>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <div class="contact-item">
+            <i class="ion-ios-location-outline"></i>
+            <h3>Address</h3>
+            <address>Tree Street, Alb 25654, CAN</address>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="contact-item central-border">
+            <i class="ion-ios-telephone-outline"></i>
+            <h3>Phone Number</h3>
+            <p>+12 4895 457774</p>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="contact-item">
+            <i class="ion-ios-email-outline"></i>
+            <h3>Email</h3>
+            <p>hello@logopage.es</p>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <div id="sendmessage">Your message has been sent. Thank you!</div>
+        <div id="errormessage"></div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                data-msg="Please enter at least 4 chars">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                data-rule="email" data-msg="Please enter a valid email">
+              <div class="validation"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+              data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+            <div class="validation"></div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" data-rule="required"
+              data-msg="Please write something for us" placeholder="Message"></textarea>
+            <div class="validation"></div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Footer  Section
+  ============================-->
+  <footer id="footer">
+    <section class="footer-top">
+      <div class="container">
+        <div class="row">
+          <!-- about item -->
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>LogoPage</h3>
+            <p>Autem consectetur, eius quo itaque laborum nihil tempora incidunt odio numquam quisquam impedit saepe.
+              Dicta, esse quisquam culpa consectetur fugit voluptatibus odit!</p>
+          </div>
+          <!-- useful item -->
+          <div class="col-lg-3 col-md-6 footer-link">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>
+                <i class="ion-ios-arrow-right"></i>
+                <a href="#introCarousel">Inicio</a>
+              </li>
+              <li>
+                <i class="ion-ios-arrow-right"></i>
+                <a href="#about">Sobre nosotros</a>
+              </li>
+              <li>
+                <i class="ion-ios-arrow-right"></i>
+                <a href="#services">Servicios</a>
+              </li>
+              <li>
+                <i class="ion-ios-arrow-right"></i>
+                <a href="#">Términos de uso</a>
+              </li>
+              <li>
+                <i class="ion-ios-arrow-right"></i>
+                <a href="#">Política de privacidad</a>
+              </li>
+            </ul>
+          </div>
+          <!-- contact item -->
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contacta</h4>
+            <p>Avd. Grande, 46<br>14566 Población<br>City, Spain<br><strong>Telef.: </strong>+35 1122
+              5566<br><strong>Email: </strong>hola@logopage.es</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <!-- newsletter -->
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Boletín de noticias</h4>
+            <p>Eligendi dolor omnis ipsum dicta, beatae possimus voluptatibus, numquam blanditiis necessitatibus
+              debitis, fugit voluptate.</p>
+            <form action="" method="post" class="formNewsletter">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-bottom">
+      <div class="container">
+        <div class="text-center">
+          <p>&copy; Copy LogoPage. Todos los derechos reservados.<br>Diseñado por <a href="#">EdurtuWebs</a></p>
+        </div>
+      </div>
+    </section>
+  </footer><!-- #footer -->
+  <!-- Back to top (button) -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!------------------------------ JavaScript Libraries -->
+  <!-- jQuery 3.2.1 -->
+  <script src="/lib/jquery/jquery.min.js"></script>
+  <script src="/lib/jquery/jquery-migrate.min.js"></script>
+  <!-- Bootstrap (jQuery and Popper.js needed) -->
+  <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Isotope (jQuery needed) -->
+  <script src="/lib/isotope/isotope.pkgd.min.js"></script>
+  <!-- Lightbox (jQuery needed) -->
+  <script src="/lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Owlcarousel (jQuery or Zepto library needed) -->
+  <script src="/lib/owlcarousel/js/owl.carousel.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="/lib/contactform/contactform.js"></script>
+  <!------------------------------ Custom JavaScript -->
+  <script src="/js/scripts.js"></script>
+</body>
+
+</html>
